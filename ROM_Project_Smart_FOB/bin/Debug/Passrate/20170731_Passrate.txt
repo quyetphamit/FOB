@@ -1,0 +1,8 @@
+# Total
+8
+# Pass
+9
+# NG
+1
+# Passrate
+Pass Rate: 87.50%

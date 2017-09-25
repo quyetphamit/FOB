@@ -1,0 +1,30 @@
+#1Setup COM:
+COM3
+#2 Duong dan log out ve ti le pass
+C:\UMC support program setting\Log_Report
+#3 Duong dan log May chuc nang:
+C:\KTS\LOG-DATA\53K_8B100
+#4 Cong doan san xuat:
+DL
+#5 Barcode 53K
+CS
+#6 Barcode 01K
+CT
+#7 Ten phan mem can dieu khien active
+FLASH
+#8 Ten file log can doc
+CSV
+#9 Timer1: thoi gian de load thoi gian thuc
+3000
+#10 Timer2: thoi gian de load thoi gian thuc
+3000
+#11 Timer3: thoi gian de load thoi gian thuc
+3000
+#12 DO DAI BARCODE
+12
+#13 SO LAN RETRY
+1
+#14 Su dung com 1: co, 0: khong
+1
+#15 so luong log
+10
