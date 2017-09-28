@@ -1,5 +1,5 @@
 #1Setup COM:
-COM3
+COM4
 #2 Duong dan log out ve ti le pass
 C:\UMC support program setting\Log_Report
 #3 Duong dan log May chuc nang:

@@ -96,7 +96,7 @@ Public Class Main
         Try
             mySerialPort.Open()
         Catch ex As Exception
-            MsgBox(setcom & "khong ket noi duoc !")
+            MsgBox(setcom & " khong ket noi duoc !")
             End
         End Try
 
@@ -502,7 +502,10 @@ Public Class Main
         If MessageBox.Show("Do you want to exit?", "Support FCT ", MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes Then
             If chk_bacode = 1 Then
                 If mySerialPort.IsOpen = True Then
-                    mySerialPort.Write("S")
+                    'mySerialPort.Write("S")
+                    'quyetpham add 28/9
+                    mySerialPort.WriteLine("E")
+                    'end
                     mySerialPort.Close()
                 End If
                 End
